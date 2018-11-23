@@ -1,0 +1,372 @@
+/*
+Theme Name: PBOL-THEME-ORIGINAL.
+Theme URI: www.pbol.org
+Description: A brief description.
+Version: 1.1
+Author: Pradeep Ghimire
+Author URI: www.prashnaharu.com
+*/
+
+
+
+#wrapper {
+   width: 1000px;
+   margin:0 auto;
+   position: relative;
+   border: 2px solid red;
+   background: url(images/background.gif) repeat;
+   font-family: verdana, arial, helvetica, sans-serif;
+   font-size: 13px;
+   border-radius:10px;
+   padding: 10px;
+
+ 
+}
+
+a:link {
+    color:#353392;
+}
+
+a:visited {
+
+    color: #336C92;
+}
+
+a:hover,
+a:active,
+a:focus {
+    background-color: #ffffcc;
+    color:red;
+}
+
+
+#Siteheader {
+    text-align: center;
+   
+}
+
+#left {
+    float:left;
+    width:250px;
+    border: 1px solid #353392;
+    padding:10px;
+    background-color: #fff;
+    margin:5px;
+    
+ 
+    
+}
+
+.individualPost {
+	
+	border: 1px solid red;
+	
+}
+
+
+#menu {
+        border: 1px solid red;
+        margin:5px;
+        box-shadow: 0px 0px 10px lightblue;
+}
+
+#menu ul {
+            list-style-type: none;
+            margin: 5px;
+            font-weight:bold;
+            padding: 10px;            
+}
+#menu ul li a:hover {
+	
+	border: 1px dotted red;
+}
+
+#menu ul li a {
+    display: block;
+    margin:5px;
+    padding: 5px 5px 5px 25px;
+}
+
+a:focus {
+
+ background-color:lightyellow;
+
+}
+
+#menu ul li a:focus{
+    background-color:lightyellow;
+}
+
+
+
+.widgets {
+	margin:5px;
+    border: 1px solid #353392;
+    padding:5px;
+    box-shadow: 0px 0px 5px lightblue;
+}
+
+#recentPost h3{
+ text-align: center;
+ margin-top: 2px;
+ padding: 2px;
+ color: red;
+ border: solid 1px #353392;
+ font-size: 12px;
+    
+
+}
+
+#recentPost ul {
+
+    list-style-type:none;
+}
+
+#recentPost ul a {
+    margin: 0px;
+    font-weight:lighter;
+    padding: 0px;
+}
+
+#searchbox {
+     text-align: center;
+}
+
+#footer h2 { display:none }
+
+.sub-menu { display: none; }
+.current_page_item .sub-menu, .current_page_parent .sub-menu { display: block;
+font-size: 10px;
+}
+
+#right{
+    margin-left: 280px;
+    margin-top: 5px;
+    margin-right:5px;
+    margin-bottom: 5px;
+    position: relative;
+    height:auto;
+    padding: 10px;
+    border: 1px solid #353392;
+    background-color: #fff;
+
+    
+/* don't forget to add the min-height property to the container'*/    
+    
+}
+
+/* for menu items icons */
+
+#menu-item-230 a {
+    background: transparent url(pict/menu_home.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-231 a {
+    background: transparent url(pict/menu_org.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-232 a {
+    background: transparent url(pict/menu_news.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-233 a {
+    background: transparent url(pict/menu_research.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+#menu-item-234 a {
+    background: transparent url(pict/menu_projects.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-273 a {
+    background: transparent url(pict/menu_contact.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-276 a {
+    background: transparent url(pict/menu_publications.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-344 a {
+    background: transparent url(pict/menu_cooperation.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+#menu-item-347 a {
+    background: transparent url(pict/menu_techno.png) center left no-repeat;
+    padding-left: 30px;
+    text-decoration:none;
+}
+
+
+
+#topBar {
+    width: 100%;
+    height:30px;
+    border: 1px dotted red;
+    text-align:right;
+    background-color: #fff;
+    position: relative;
+    box-shadow:inset 0 0 5px red;
+}
+
+#topBar ul li {
+    display:inline;
+    padding:10px;
+    font-size: 12px;
+}
+
+#topBar ul {
+    margin: 5px;
+}
+
+#content {
+    
+    margin-top:5px;
+    height: auto;
+    border: 1px dotted red;
+    background-color: #fff;
+    padding: 10px;
+
+}
+#content h3 {
+
+	color: #353392;
+}
+
+.postTitle h3 a {
+	color: #353392;
+	text-decoration:none;
+	display:block;
+	padding: 5px 0px;
+	text-transform:uppercase;
+
+}
+
+#postDate {
+	color:#EE2433;
+	font-weight:bold;
+	font-size: 10px;
+}
+
+#contactInfo h3 {
+
+ text-align: center;
+ margin-top: 2px;
+ padding: 2px;
+ color: red;
+ border: solid 1px #353392;
+ font-size: 12px;
+}
+
+#contactInfo ul li {	
+    padding-left: 20px;
+    text-decoration:none;
+    list-style-type: none;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#contactPhone {
+	background: transparent url(pict/phone.png) center left no-repeat;
+}
+
+#contactAddress {
+	background: transparent url(pict/address.png) center left no-repeat;
+}
+
+
+
+#footer {
+    clear:both;
+    width:100%;
+    border-top: 1px dotted red;
+    height:30px;
+    background-color:#FFF;
+
+
+
+}
+
+#footer ul{
+    margin:5px;
+    text-align: center;
+}
+
+#footer ul li{
+    display:inline;
+    font-size: 12px;
+    padding:10px;
+}
+
+img {
+
+}
+
+input[type=text]
+{
+    background-color: #ffffff;
+    border-style:solid;
+    border-color:#F3656F;
+}
+
+#searchsubmit {
+    background-color: #EE2433;
+    color: #ffffff;
+    font-size: xx-small;
+    font-weight: bold;
+    border-style:solid;
+    border-color:#F3656F;
+    width: 70px;
+}
+
+
+#content p a[href$=".pdf"] {
+  background: url(pict/pdf.png) no-repeat left center;
+  padding-left: 20px;
+}
+
+h1 { font-size: 24px;}
+h2 { font-size: 22px;}
+h3 { font-size: 18px;}
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
+body { font-size: 16px; }
+p    { font-size: 13px; }
+
+/*
+
+Media Query
+
+*/
+
+@media screen and ( max-width:768px ){
+    
+    #wrapper {
+        background: #FF6347;
+        color: red;
+    }
+    
+@media screen and ( max-width:480px) {
+        
+        #wrapper {
+            background:#468284;
+        }
+    
+    }
+    
+
+}
