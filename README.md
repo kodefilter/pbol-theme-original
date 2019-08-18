@@ -9,7 +9,7 @@ decided to go with WordPress for its simplicity and learning curve. The most cha
 
 Here is the original static version of the site
 
-![ScreenShot](https://raw.github.com/prrdee/pbol-theme-original/master/pbol-original.png)
+![ScreenShot](https://raw.github.com/prrdee/pbol-theme-original/master/pbol-before.png)
 
 
 Here is the final version of the site ( CMS based, responsive and accessible )
